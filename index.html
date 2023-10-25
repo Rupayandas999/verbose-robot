@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body{
+            background: linear-gradient(45deg, rgb(82, 81, 81), rgb(204, 196, 196));
+        }
+        p {
+            text-align: center;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .img {
+            height: 100px;
+            border-radius: 30px;
+        }
+
+        .salary {
+            font-size: 14px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        button {
+            font-size: 18px;
+            margin-left: 15px;
+            background-color: black;
+            color: white;
+            font-weight: 600;
+            padding: 5px 15px;
+            border-radius: 10px;
+            border: 2px solid transparent;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #fff;
+            color: black;
+            border: 2px solid black;
+        }
+
+        .audio {
+            width: 98%;
+            background-color: rgb(255, 255, 255);
+            color: rgb(205, 0, 0);
+            outline: none;
+            position: absolute;
+            bottom: 10px;
+            left: 6px;
+
+        }
+
+        .audio::-webkit-media-controls-panel {
+            background-color: rgb(171, 164, 164);
+            color: rgb(157, 18, 18);
+        }
+
+        .audio::-webkit-media-controls-play-button,
+        .audio::-webkit-media-controls-mute-button {
+            background-color: rgb(171, 164, 164);
+
+        }
+
+        .info {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .youtube{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p><img src="Rupayan Das.jpg" alt="" height="200px" class="img"></p>
+    <p>My Resume</p>
+    <p>Name: Rupayan Das</p>
+    <p class="salary">Current Salary: 10000000/year</p>
+    <p>Experience: 3 years experience</p>
+    <p>One of the smartest person on the planet</p>
+    <p>Education: Senior Full Stack Web Engineer</p>
+    <div class="buttons">
+        <a href="tel:9748589803"><button>Call Me</button></a>
+        <a href="mailto:rupayan.team@gmail.com"><button>Email Me</button></a>
+    </div>
+    <div class="info">
+
+        <a href="Akhon mein teri complete 2.wav" class="song"><button>My song</button></a>
+        <a target="_blank"
+            href="Aisa_Pehli_Baar_Hua_Hai_-_Sonu_Nigam_Hindi_Full_Karaoke_with_Lyrics(360p).mp4"><button>Download Aisa
+                Pehli
+                Baar Hua Hain</button></a>
+    </div>
+    <audio src="Akhon mein teri complete 2.wav" controls="" loop="" class="audio">Aankhon Mein teri</audio>
+    <div class="youtube">
+        <iframe width="360" height="180"
+            src="https://www.youtube.com/embed/xOCzjgjedRc?si=UX3sscB7dSNXxqB9&amp;start=30"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""></iframe>
+    </div>
+
+</body>
+
+</html>
